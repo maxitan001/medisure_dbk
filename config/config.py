@@ -3,7 +3,7 @@
 # ------------------------------
 
 # Catalog
-catalog_name = "medisure_andrew"
+catalog_name = "medisure_maxi"
 
 # Schemas
 schema_name_bronze = f"medisure_bronze"
@@ -33,11 +33,11 @@ file_input_members_csv = f"{path_vol_landing_ref_members}/members.csv"
 file_input_providers_json = f"{path_vol_landing_ref_providers}/providers.json"
 
 # Remote Input
-path_url_claims_batch_csv = f"https://raw.githubusercontent.com/atmarges/medisure_dbk/refs/heads/main/data/claims_batch.csv"
-path_url_claims_stream_json = f"https://raw.githubusercontent.com/atmarges/medisure_dbk/refs/heads/main/data/claims_stream.json"
-path_url_diagnosis_ref_csv = f"https://raw.githubusercontent.com/atmarges/medisure_dbk/refs/heads/main/data/diagnosis_ref.csv"
-path_url_members_csv = f"https://raw.githubusercontent.com/atmarges/medisure_dbk/refs/heads/main/data//members.csv"
-path_url_providers_json = f"https://raw.githubusercontent.com/atmarges/medisure_dbk/refs/heads/main/data/providers.json"
+path_url_claims_batch_csv = f"https://raw.githubusercontent.com/maxitan001/medisure_dbk/refs/heads/main/data/claims_batch.csv"
+path_url_claims_stream_json = f"https://raw.githubusercontent.com/maxitan001/medisure_dbk/refs/heads/main/data/claims_stream.json"
+path_url_diagnosis_ref_csv = f"https://raw.githubusercontent.com/maxitan001/medisure_dbk/refs/heads/main/data/diagnosis_ref.csv"
+path_url_members_csv = f"https://raw.githubusercontent.com/maxitan001/medisure_dbk/refs/heads/main/data//members.csv"
+path_url_providers_json = f"https://raw.githubusercontent.com/maxitan001/medisure_dbk/refs/heads/main/data/providers.json"
 
 # Tables - bronze
 bt_fact_claims_batch = f"{catalog_name}.{schema_name_bronze}.bt_fact_claims_batch"
